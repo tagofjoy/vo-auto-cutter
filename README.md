@@ -116,7 +116,7 @@ will group all the different lines together and thus help some users to navigate
 The scripts should be run in order. Example commands are as follows:
 
 ```
-AudioCutter --file="%FILEPATH1%" --audio="%FILEPATH2%"
+AudioCutter --dialog="%FILEPATH1%" --audio="%FILEPATH2%"
 Transcriber
 ClipMaker
 FileRenamer

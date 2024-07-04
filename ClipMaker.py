@@ -139,7 +139,7 @@ def main(args):
 
 
     # Read the outputs of the transcript and the audio segment timestamps
-    with open(transcript_path, 'r') as file:
+    with open(transcript_path, 'r', encoding="utf8") as file:
         transcript = file.readlines()
     transcript = [string.strip() for string in transcript]
     transcript = [normalize_string(string) for string in transcript]

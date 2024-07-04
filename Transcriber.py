@@ -33,6 +33,6 @@ for i, file in enumerate(files):
     transcript.append(transcribed_text)
 
 # Saving transcribed sentences to file
-with open(os.path.join(directory, "Transcript.txt"), 'w') as file:
+with open(os.path.join(directory, "Transcript.txt"), 'w', encoding="utf-8") as file:
     for line in transcript:
         file.write(line + '\n')
